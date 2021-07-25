@@ -5,226 +5,217 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
     <title>Video Production</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
+    <div class="wrapper mainpage-wrapper">
+        <section class="hero">
             <div class="container">
-                <a href="/" class="logo">
-                    <img src="" alt="" class="logo__pic">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__title">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <address class="contacts">
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                    <div class="contacts__workhours">График работы</div>
-                </address>
+                <header class="header">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="video production logo" class="logo__pic">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item menu__item--active">
+                                <a href="#" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <address class="contacts">
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                        <div class="contacts__workhours">График работы</div>
+                    </address>
+                </header>
+                <div class="hero__content">
+                    <div class="hero__text-section">
+                        <h1 class="hero__title">Снимем для вас креативное видео</h1>
+                        <h4 class="hero__subtitle">Креативный видеопродакшн полного цикла</h4>
+                        <a href="#" class="btn btn--color--orange">Подробнее</a>
+                    </div>
+                </div>
             </div>
-        </header>
-        <div class="page-content">
-            <main class="main-content">
-                <section class="banner">
-                    <div class="container">
-                        <h1 class="banner__title">Снимем для вас креативное видео</h1>
-                        <div class="banner__content">Креативный видеопродакшн полного цикла</div>
-                        <a href="#" class="button">Подробнее</a>
-                    </div>
-                </section>
-                <section class="services">
-                    <div class="container">
-                        <ul class="services__list">
-                            <li class="services__item">
-                                <div class="services__icon">
-                                    <img src="" alt="" class="services__pic">
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="services__title">Реклама</h3>
-                                    <ul class="services__options">
-                                        <li class="services__option">
-                                            <div class="services__staff-workperiod">от 5 человек на проект</div>
-                                        </li>
-                                        <li class="services__option">
-                                            <div class="services__staff-workperiod">28 дней работы в среднем</div>
-                                        </li>
-                                    </ul>
-                                    <p class="services__description">Креатив и производство рекламы, документального и
-                                        корпоративного контента.</p>
-                                    <a href="#" class="button button_theme_transparent">Подробнее</a>
-                                </div>
-                            </li>
-                            <li class="services__item">
-                                <div class="services__icon">
-                                    <img src="" alt="" class="services__pic">
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="services__title">Видеоклип</h3>
-                                    <ul class="services__options">
-                                        <li class="services__option">
-                                            <div class="services__staff-workperiod">от 7 человек на проект</div>
-                                        </li>
-                                        <li class="services__option">
-                                            <div class="services__staff-workperiod">21 дней работы в среднем</div>
-                                        </li>
-                                    </ul>
-                                    <p class="services__description">Вы решили представиться своим слушателям, пополнить
-                                        свой творческий багаж качественным видео? Прекрасно!</p>
-                                    <a href="#" class="button button_theme_transparent">Подробнее</a>
-                                </div>
-                            </li>
-                            <li class="services__item">
-                                <div class="services__icon">
-                                    <img src="" alt="" class="services__pic">
-                                </div>
-                                <div class="services__content">
-                                    <h3 class="services__title">Свадьба</h3>
-                                    <ul class="services__options">
-                                        <li class="services__option">
-                                            <div class="services__staff-workperiod">от 2 человек на проект</div>
-                                        </li>
-                                        <li class="services__option">
-                                            <div class="services__staff-workperiod">30 дней работы в среднем</div>
-                                        </li>
-                                    </ul>
-                                    <p class="services__description">Получите живое видео своего самого счастливого дня,
-                                        которое Вы будете пересматривать снова и снова.</p>
-                                    <a href="#" class="button button_theme_transparent">Подробнее</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="promonews">
-                    <div class="container">
-                        <div class="promonews__header">
-                            <h2 class="promonews__title">Новости и акции</h2>
-                        </div>
-                        <ul class="promonews__list">
-                            <li class="promonews__item">
-                                <div class="promonews__pic">
-                                    <img src="" alt="" class="promonews__foto">
-                                </div>
-                                <div class="promonews__content">
-                                    <div class="promonews__date">Декабрь 2019</div>
-                                    <h4 class="promonews__name">Снимем ваш клип на 50% дешевле</h4>
-                                    <p class="promonews__desc">В честь Новогодних праздников мы раздаем огромные скидки,
-                                        успейте забронировать даты.</p>
-                                </div>
-                            </li>
-                            <li class="promonews__item">
-                                <div class="promonews__pic">
-                                    <img src="" alt="" class="promonews__foto">
-                                </div>
-                                <div class="promonews__content">
-                                    <div class="promonews__date">Декабрь 2019</div>
-                                    <h4 class="promonews__name">Акция для молодоженов 30%</h4>
-                                    <p class="promonews__desc">Успевайте забронировать даты. Пока еще есть места на
-                                        декабрь. Удачи и всех благ!</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="paginator">
-                            <div class="paginator__display">Страница 1 из 7</div>
-                            <ul class="paginator__list">
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__link">1</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__link">2</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__link">3</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__link">4</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__link">5</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__link">6</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__link">7</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section class="company">
-                    <div class="container">
-                        <div class="company__pic">
-                            <img src="" alt="" class="company__img">
-                        </div>
-                        <div class="company__info">
-                            <h2 class="company__title">О нас</h2>
-                            <p class="company__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-                                сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-                                начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
-                            <a href="#" class="button">Подробнее</a>
-                        </div>
-                    </div>
-                </section>
-            </main>
-        </div>
-        <footer class="footer">
-            <div class="container">
-                <a href="/" class="logo">
-                    <img src="" alt="" class="logo__pic">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Главная</a>
+        </section>
+
+        <main class="main-content">
+            <section class="services">
+                <div class="container">
+                    <ul class="services__list">
+                        <li class="services__item">
+                            <div class="services__icon">
+                                <img src="./img/icons/adv.png" alt="" class="services__pic">
+                            </div>
+                            <div class="services__content">
+                                <h3 class="services__title">Реклама</h3>
+                                <ul class="services__options">
+                                    <li class="services__option">
+                                        <div class="services__staff-workperiod">от 5 человек на проект</div>
+                                    </li>
+                                    <li class="services__option">
+                                        <div class="services__staff-workperiod">28 дней работы в среднем</div>
+                                    </li>
+                                </ul>
+                                <p class="services__description">Креатив и производство рекламы, документального и
+                                    корпоративного контента.</p>
+                                <a href="#" class="btn btn--color--transparent">Подробнее</a>
+                            </div>
                         </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Услуги</a>
+                        <li class="services__item">
+                            <div class="services__icon">
+                                <img src="./img/icons/mv.png" alt="" class="services__pic">
+                            </div>
+                            <div class="services__content">
+                                <h3 class="services__title">Видео-клип</h3>
+                                <ul class="services__options">
+                                    <li class="services__option">
+                                        <div class="services__staff-workperiod">от 7 человек на проект</div>
+                                    </li>
+                                    <li class="services__option">
+                                        <div class="services__staff-workperiod">21 дней работы в среднем</div>
+                                    </li>
+                                </ul>
+                                <p class="services__description">Вы решили представиться своим слушателям, пополнить
+                                    свой творческий багаж качественным видео? Прекрасно!</p>
+                                <a href="#" class="btn btn--color--transparent">Подробнее</a>
+                            </div>
                         </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__title">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="social">
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="" alt="" class="social__telegram">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="" alt="" class="social__vk">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="" alt="" class="social__fb">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="" alt="" class="social__insta">
-                            </a>
+                        <li class="services__item">
+                            <div class="services__icon">
+                                <img src="./img/icons/wed.png" alt="" class="services__pic">
+                            </div>
+                            <div class="services__content">
+                                <h3 class="services__title">Свадьба</h3>
+                                <ul class="services__options">
+                                    <li class="services__option">
+                                        <div class="services__staff-workperiod">от 2 человек на проект</div>
+                                    </li>
+                                    <li class="services__option">
+                                        <div class="services__staff-workperiod">30 дней работы в среднем</div>
+                                    </li>
+                                </ul>
+                                <p class="services__description">Получите живое видео своего самого счастливого дня,
+                                    которое Вы будете пересматривать снова и снова.</p>
+                                <a href="#" class="btn btn--color--transparent">Подробнее</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
-                <address class="contacts">
-                    <div class="contacts__rate">Бесплатный звонок по России</div>
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                </address>
+            </section>
+            <section class="promonews">
+                <div class="container">
+                    <h2 class="promonews__title">Новости и акции</h2>
+                    <ul class="promonews__list">
+                        <li class="promonews__item">
+                            <img src="./img/main/camera.png" alt="Видеоклип за полцены" class="promonews__foto">
+                            <div class="promonews__content">
+                                <time class="promonews__date">Декабрь 2019</time>
+                                <h4 class="promonews__name">Снимем ваш клип на 50% дешевле</h4>
+                                <div class="promonews__desc">В честь Новогодних праздников мы раздаем огромные скидки,
+                                    успейте забронировать даты.</div>
+                            </div>
+                        </li>
+                        <li class="promonews__item">
+                            <img src="./img/main/wedding.png" alt="Акция для молодоженов" class="promonews__foto">
+                            <div class="promonews__content">
+                                <time class="promonews__date">Декабрь 2019</time>
+                                <h4 class="promonews__name">Акция для молодоженов 30%</h4>
+                                <div class="promonews__desc">Успевайте забронировать даты. Пока еще есть места на
+                                    декабрь. Удачи и всех благ!</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="paginator">
+                        <div class="paginator__display">Страница 1 из 7</div>
+                        <ul class="paginator__list">
+                            <li class="paginator__item paginator__item--active">
+                                <a href="#" class="paginator__link">1</a>
+                            </li>
+                            <li class="paginator__item">
+                                <a href="#" class="paginator__link">2</a>
+                            </li>
+                            <li class="paginator__item">
+                                <a href="#" class="paginator__link">3</a>
+                            </li>
+                            <li class="paginator__item">
+                                <a href="#" class="paginator__link">4</a>
+                            </li>
+                            <li class="paginator__item">
+                                <a href="#" class="paginator__link">5</a>
+                            </li>
+                            <li class="paginator__item">
+                                <a href="#" class="paginator__link">6</a>
+                            </li>
+                            <li class="paginator__item">
+                                <a href="#" class="paginator__link">7</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="company">
+                <div class="container">
+                    <div class="company__info">
+                        <div class="company__desc">
+                            <h2 class="company__title">О нас</h2>
+                            <div class="company__desc-text">
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
+                                    языке, а
+                                    начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+                            </div>
+                            <a href="#" class="btn btn--color--orange">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-container">
+            <div class="container footer-container__content">
+                <div class="footer">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="video production logo" class="logo__pic">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="social">
+                        <li class="social__item social__item--icon--tg">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                        <li class="social__item social__item--icon--vk">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                        <li class="social__item social__item--icon--fb">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                        <li class="social__item social__item--icon--ig">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                    </ul>
+                    <address class="contacts">
+                        <div class="contacts__rate">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    </address>
+                </div>
             </div>
         </footer>
     </div>
